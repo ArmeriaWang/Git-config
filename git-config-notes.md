@@ -106,7 +106,7 @@ git version 2.13.0
 #如果没有特殊保密需求，生成过程中遇到yes/no选项的一律输入yes，其余的一路回车即可
 ```
 
-然后再进入`~/.ssh`目录，不出意外就可以看见`id_rsa.pub`文件。全文拷贝之，在GitHub用户设置（`Settings`）中，点击`SSH and GPG keys`选项卡，在`SSH keys`框中点击`New SSH key`按钮。`Title`栏随意填写（不和自己使用的其它机器混淆即可），Key栏全文粘贴`id_rsa.pub`的内容。完成后点击`Add SSH key`按钮即可。
+然后再进入`~/.ssh`目录，不出意外就可以看见`id_rsa.pub`文件。全文拷贝之，在GitHub用户设置（`Settings`）中，点击`SSH and GPG keys`选项卡，在`SSH keys`框中点击`New SSH key`按钮。`Title`栏随意填写（不和自己使用的其它机器混淆即可），Key栏全文粘贴`id_rsa.pub`的内容。完成后点击`Add SSH key`按钮。
 
 接下来用git做工作。
 
